@@ -29,8 +29,8 @@ describe('#circle', () => {
     assert.strictEqual(Object.keys(circle(3)).length, 3);
     /* Object.keys documentação src: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/keys */
     assert.strictEqual(circle(), undefined);
-    assert.strictEqual(circle(2), (circle.circumference, 12.56));
-    assert.strictEqual(circle(3), (circle.area, 28.26));
+    assert.strictEqual(circle(2).circumference, 12.56);
+    assert.strictEqual(circle(3).area, 28.26);
     assert.strictEqual(circle(3), { radius: 3, area: 28.26, circumference: 18.84 });
   });
 });
