@@ -19,6 +19,7 @@ const createStudent = (personName) => {
   const feedBack = () => 'Eita pessoa boa!';
   const person = {
     name: personName,
+    feedback: feedBack(),
   };
 };
 module.exports = createStudent;
