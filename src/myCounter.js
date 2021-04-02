@@ -22,5 +22,3 @@ const myCounter = () => {
 };
 
 module.exports = myCounter;
-
-console.log(myCounter());
