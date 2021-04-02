@@ -22,4 +22,5 @@ const createStudent = (personName) => {
     feedback: feedBack(),
   };
 };
+
 module.exports = createStudent;
